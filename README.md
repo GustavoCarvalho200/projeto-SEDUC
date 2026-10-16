@@ -113,6 +113,11 @@ O projeto está em desenvolvimento. Já funcionam a leitura do CSV, a listagem d
 - O ranking usa a receita total prevista, o que favorece os municípios maiores. Uma comparação mais justa seria pelo valor por aluno.
 - Os valores exibidos vêm do CSV e são estimativas, não substituem os cálculos oficiais do FNDE.
 
+## IA'S
+Claude Sonnet 5.5	Lógica de ranking e indicadores	Sugeriu indicadores para o projeto (valor médio por aluno e diferença para a média estadual), escreveu o trecho de ordenação para o top 3 e para o maior/menor Fundeb e apontou um bug no método buscar do LeitorCSV.	Execução do programa com o CSV real, conferência do top 3 e do maior/menor com os dados do arquivo, remoção do Governo do Estado da análise e ajuste do código ao padrão do projeto.
+
+Claude Sonnet 5.5	Documentação e README	Auxiliou na estruturação e na redação do README.md, incluindo as instruções de execução, e o atualizou conforme o código e o pom.xml do projeto.	Validação dos comandos de execução, preenchimento do exemplo de saída, da fonte dos dados e da equipe e ajuste dos textos ao estado real do projeto.
+
 ## Equipe
 
 - Kaio Ryan da Silva Paiva
