@@ -1,0 +1,58 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< br.com.seduc:projeto-fundeb >---------------------
+[INFO] Building projeto-fundeb 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 23991 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ projeto-fundeb ---
+[INFO] skip non existing resourceDirectory c:\Projeto - Isaac\projeto-isac\JAVA_PROJETO_SEDUC_novo\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ projeto-fundeb ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 8 source files with javac [debug release 11] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[1,1] illegal character: '\ufeff'
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[1,9] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[2,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[3,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[4,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[5,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[6,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[7,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[8,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[10,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[11,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[12,1] class, interface, or enum expected
+[INFO] 12 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.970 s
+[INFO] Finished at: 2026-10-05T17:42:14-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project projeto-fundeb: Compilation failure: Compilation failure: 
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[1,1] illegal character: '\ufeff'
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[1,9] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[2,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[3,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[4,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[5,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[6,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[7,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[8,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[10,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[11,1] class, interface, or enum expected
+[ERROR] /c:/Projeto - Isaac/projeto-isac/JAVA_PROJETO_SEDUC_novo/src/LeitorCSV.java:[12,1] class, interface, or enum expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
